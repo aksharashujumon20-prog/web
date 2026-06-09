@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Timetable</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 90%;
+            margin: auto;
+        }
+
+        th, td{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        caption{
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<table>
+
+    <caption>SCHOOL TIMETABLE</caption>
+
+    <tr>
+        <th>Day</th>
+        <th>9:00-10:00</th>
+        <th>10:00-11:00</th>
+        <th>11:00-11:15</th>
+        <th>11:15-12:15</th>
+        <th>12:15-1:15</th>
+        <th>1:15-2:00</th>
+        <th>2:00-3:00</th>
+    </tr>
+
+    <tr>
+        <th>Monday</th>
+        <td>Math</td>
+        <td>English</td>
+
+        <td rowspan="5" class="break">
+            B<br>R<br>E<br>A<br>K
+        </td>
+
+        <td>Science</td>
+        <td>Computer</td>
+
+        <td rowspan="5" class="break">
+            L<br>U<br>N<br>C<br>H
+        </td>
+
+        <td>Sports</td>
+    </tr>
+
+    <tr>
+        <th>Tuesday</th>
+        <td>Science</td>
+        <td>Math</td>
+        <td>English</td>
+        <td>Social Science</td>
+        <td>Computer</td>
+    </tr>
+
+    <tr>
+        <th>Wednesday</th>
+        <td>English</td>
+        <td>Science</td>
+
+        <!-- COLSPAN -->
+        <td colspan="2">Computer Lab</td>
+
+        <td>Art</td>
+    </tr>
+
+    <tr>
+        <th>Thursday</th>
+        <td>Math</td>
+        <td>Social Science</td>
+        <td>Science</td>
+        <td>English</td>
+        <td>Sports</td>
+    </tr>
+
+    <tr>
+        <th>Friday</th>
+        <td>Computer</td>
+        <td>Math</td>
+        <td>English</td>
+        <td>Science</td>
+        <td>Library</td>
+    </tr>
+
+</table>
+
+<br><br>
+
+
+<table>
+    <caption>Student Information</caption>
+
+    <tr>
+        <th>Name</th>
+        <td>Akshu</td>
+    </tr>
+
+    <tr>
+        <th>Class</th>
+        <td>10</td>
+    </tr>
+
+    <tr>
+        <th>Section</th>
+        <td>A</td>
+    </tr>
+
+    <tr>
+        <th>Roll No</th>
+        <td>15</td>
+    </tr>
+</table>
+
+</body>
+</html>
